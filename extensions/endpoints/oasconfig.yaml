@@ -1,0 +1,22 @@
+docsPath: 'api-docs'
+info:
+  title: directus-kelkun
+  version: 1.5.0
+  description: Directus Kelkun API Documentation
+tags:
+  - name: Directus
+    description: Directus description
+publishedTags:
+  - Directus
+components:
+  schemas:
+    UserId:
+      type: object
+      required:
+        - user_id
+      x-collection: directus_users
+      properties:
+        user_id:
+          description: Unique identifier for the user.
+          example: 63716273-0f29-4648-8a2a-2af2948f6f78
+          type: string
