@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "directus": "^10.6.3",
-    "directus-extension-api-docs": "^1.7.4",
+    "directus-extension-api-docs": "^1.7.5",
     "pg": "^8.11.3"
   }
 }
